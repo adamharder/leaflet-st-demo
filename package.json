@@ -1,0 +1,27 @@
+{
+  "name": "vanilla-typescript",
+  "version": "1.0.0",
+  "description": "JavaScript and TypeScript example starter project",
+  "main": "index.html",
+  "scripts": {
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html"
+  },
+  "dependencies": {
+    "@types/geojson": "7946.0.8",
+    "@types/leaflet": "1.7.5",
+    "leaflet": "1.7.1",
+    "parcel-bundler": "^1.6.1",
+    "typescript": "3.1.0-dev.20180717"
+  },
+  "devDependencies": {
+    "typescript": "3.1.0"
+  },
+  "resolutions": {
+    "@babel/preset-env": "7.13.8"
+  },
+  "keywords": [
+    "typescript",
+    "javascript"
+  ]
+}
